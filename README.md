@@ -85,6 +85,9 @@ cd SDMIT25TODOLIST
 cd backend
 npm install
 
+Create .env file inside backend folder and paste the following contents:
+MONGO_URI=mongodb://localhost:27017/testtodoapp
+PORT=5000
 
 Start the backend server:
 
